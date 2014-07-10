@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Fav Movie Database</title>
+		<meta name="description" content="Fav Movie Database" />
+		<meta name="keywords" content="movies, shows, actors, actresses, villians, good guy, bad guy" />
+		<meta name="Ajay" content="Movies" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<header class="clearfix">
+				<h1>My favourite <span>Movies and Shows</span></h1>	
+			</header>
+			<div class="main">
+				<ul id="og-grid" class="og-grid">
+					<li>
+						<a href="http://www.imdb.com/title/tt0137523/" data-largesrc="images/1.jpg" data-title="Fight Club" data-description="An insomniac office worker looking for a way to change his life crosses paths with a devil-may-care soap maker and they form an underground fight club that evolves into something much, much more...">
+							<img src="images/thumbs/1.jpg" alt="img01"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.imdb.com/title/tt0770828/" data-largesrc="images/2.jpg" data-title="Man of Steel" data-description="A young itinerant worker is forced to confront his secret extrastellar origin when Earth is invaded by members of his own race.">
+							<img src="images/thumbs/2.jpg" alt="img02"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							<img src="images/thumbs/3.jpg" alt="img03"/>
+						</a>
+					</li>
+				</ul>
+				<p>Filler text by <a href="http://veggieipsum.com/">Veggie Ipsum</a></p>
+				<a id="og-additems" href="#">add more</a>
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+	</body>
+</html>
